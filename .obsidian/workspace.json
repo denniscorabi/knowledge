@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "98c964e5431ed90d",
+        "id": "246b86052ed33dd4",
         "type": "tabs",
         "children": [
           {
-            "id": "663567a6dec27e1c",
+            "id": "3a13b247c6698c1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/linear programming 2025-09-24.md",
+                "file": "Permanent/Testing/Functional testing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "linear programming 2025-09-24"
+              "title": "Functional testing"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#new",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 344.5024719238281
   },
   "right": {
     "id": "d40d105b152d0d4a",
@@ -193,33 +193,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "663567a6dec27e1c",
+  "active": "3a13b247c6698c1c",
   "lastOpenFiles": [
+    "Permanent/Testing/Testing.md",
+    "Permanent/Testing/Functional testing.md",
+    "Untitled.base",
+    "Permanent/Number theory/Cryptography.md",
+    "Tags/testing.md",
+    "Permanent/Zettelkasten.md",
+    "Permanent/Testing",
     "Literature/operations research 2025-09-24.md",
+    "Literature/dynamic programming 2025-10-04.md",
     "Literature/linear programming 2025-09-24.md",
-    "Fleeting",
-    "Source/Untitled",
+    "Tags/knowledge management.md",
+    "Tags/applied math.md",
+    "Tags/operational research.md",
+    "Permanent/Mobile development/Intents.md",
+    "Permanent/Mobile development/Architettura di applicazioni.md",
+    "Permanent/Mobile development/Activities lifecycle.md",
+    "Tags/pure math.md",
+    "Tags/mobile development.md",
+    "Permanent/Mobile development/Mobile dev.md",
+    "Permanent/Mobile development",
     "Literature/simplex method 2025-09-24.md",
     "Literature/assets/lp-standard-form.png",
     "Literature/assets/lp-augmented-form.png",
+    "Fleeting",
+    "Source/Untitled",
     "Literature/assets/IMG_4293.heic",
     "Permanent/Operations research/Linear programming.md",
-    "Tags/operational research.md",
     "4 - Drafts/assets/Pasted image 20250924212410.png",
     "Untitled 1.base",
-    "Untitled.base",
     "Literature/assets",
     "Untitled 4.base",
     "Untitled 3.base",
-    "Untitled 2.base",
-    "Tags/pure math.md",
-    "Tags/knowledge management.md",
-    "Permanent/Zettelkasten.md",
-    "Permanent/Number theory/Cryptography.md",
     "3 - Tags/hidden.md",
     "Templates/Full Note.md",
-    "Literature",
-    "Tags/applied math.md",
     "6 - Atomic Notes/zette.md",
     "2 - Source Material/Articles/Untitled.md",
     "202407131723.md",
