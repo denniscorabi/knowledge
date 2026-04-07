@@ -28,8 +28,29 @@ Si può quindi ricorrere alla scelta di casi di test in maniera randomica, che r
 
 Molto spesso però i **casi limite** di una procedura sono una frazione infinitesimale dello spazio di input, ed è quindi molto probabile che vengano generati casualmente. E' perciò prassi comune quella di comunque fare un partizionamento degli input in classi, ed in seguito generare randomicamente i casi di test in modo tale che ogni classe sia almeno trattata da uno di essi.
 
+## Definizione casi di test
 
+L'individuazione dei casi di test è una operazione che richiede molta attenzione: le specifiche possono essere lunghe e intrecciate tra di loro, ed individuare la tecnica di test più adeguata non è sempre un lavoro immediato.
+Per questo motivo un **approccio sistematico** alla fase di individuazione dei casi di test è fondamentale; ecco qui alcuni dei punti principali:
+### Decomposizione della specifica
 
+Decomporre la specifica in feature che è possibile testare in maniera indipendente è uno dei primi passi fondamentali per individuare in maniera sistematica i casi di test importanti. 
+Si effettua a questo livello un **partizionamento funzionale** dell'applicativo, in base a cosa può essere percepito dall'utente del SUT (*system under test*) come un modulo unico.
+### Scelta dei rappresentanti degli input
+
+Nelle specifiche è anche importante ricercare riferimenti a valori significativi per i vari input del sistema. A questo livello non deve essere ancora fatta la combinazione di questi valori per ottenere i casi di test (che dovrà essere fatta in seguito).
+
+> Molto spesso basta individuare classi di input, piuttosto che valori specifici. Ad esempio un caso limite può essere quello di *lista con un solo elemento*, piuttosto che una lista con un valore specifico.
+
+### Selezione dei casi di test
+
+A seguito della decomposizione della specifica e dell'individuazione dei rappresentati degli input, è necessario scrivere i casi di test. D'altro canto creare un caso di test per ogni combinazione delle classi di input del sistema può rivelarsi impraticabile e talvolta errato.
+
+> Bisogna quindi **filtrare i possibili i casi di test**, tenendo buoni solamente quelli realmente fattibili.
+
+Un'altra strategia per ridurre i casi di test mantenendo alto il livello di affidabilità della suite di test è quello di testare a coppie gli input. Questa tecnica funziona molto bene quando input diversi sono utilizzati assieme nel programma e il valore di uno influenza la valutazione del valore dell'altro. 
+
+Combinando queste due ed altre tecniche di scrematura dei casi di test è possibile ottenere una suite di test con un alto coefficiente di affidabilità ed al tempo stesso rapida da eseguire e di facile comprensione e mantenimento.
 
 [^1]: Per input in questo caso ci riferisce a tutto ciò che determina il comportamento di un componente software, non strettamente gli argomenti in ingresso di un metodo.
 
