@@ -1,3 +1,8 @@
+2026-04-07 23:22
+
+Status:  #new
+
+Tags: [[Tags/testing|testing]] 
 # Testing funzionale
 
 Il **testing funzionale** prende il suo nome dalla fonte di ispirazione per la costruzione di questi test: le specifiche funzionali. Prende anche il nome di **black-box testing** poiché si effettua la verifica della correttezza di un software "a scatola chiusa", ovvero senza avere sottomano una implementazione specifica del prodotto.
