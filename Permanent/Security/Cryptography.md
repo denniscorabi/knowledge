@@ -1,11 +1,13 @@
-2025-09-24 18:25
+gen2026-04-23 22:35
 
 Status:  #new
 
-Tags: [[pure math]]
+Tags: [[pure math]] [[security]]
 # Cryptography
 
 **Cryptography** is the study of methods to hide information in plain sight. The message that conveys information is understood only by the intended recipients.
+
+Cryptography is where security engineer and applied mathematics meet: it is the key component to make distributed systems secure. 
 
 - The message that needs to be sent is called *plaintext*
 - The disguised message is the *cipher text*.
