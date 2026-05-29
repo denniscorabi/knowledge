@@ -55,3 +55,27 @@ The idea is to trick the target into providing a response to its own challenge. 
 
 A simple solution is to use MACs, calculated with the use of an identifier and a nonce, encrypted using the shared secret key.
 With this solution, the other end can make sure the message has been sent from the same principal (using the identifier) and that is not a message already sent in the past (using the nonce).
+
+---
+
+## Needham-Schroeder and Kerberos
+
+**Needham-Schroeder** is a communication protocol used by two parties who wants to communicate securely in a insecure channel. Needham-schroeder protocol consists of two versions:
+- **Needham-schroeder with symmetric keys**, which lays the foundations of the Kerberos communication protocol. This is used to establish a session key, then used by the two parties to exchange messages securely with another symmetric key algorithm.
+- **Needham-schroeder with public and secrets keys**
+### Symmetric Needham-Schroeder 
+
+![[symmetric-needham-schroeder.png]]
+
+We have two parties that wants to communicate (Alice and Bob), and an authentication service (AS) that knows both secret keys of Alice and Bob.
+
+#### *With my words...*
+
+First Alice asks to communicate with Bob; it does so by sending a 'request' to AS, authenticating himself, making the request unique thanks to the nonce $N_A$. 
+The server responds  $K_{AB}$ , the session key, both a copy for Alice and one for Bob, the latter of which is encrypted using the key of Bob $K_B$ (that AS knows by design).
+The copy of the session key is then transmitted by Alice to Bob; Bob only knows how to decrypt the message, and so it can then use the session key.
+Last but not least, both parties need to check that they can understand each other with this session key. Bob does so after obtaining the session key by generating a nonce $N_B$, transmitted to Alice encrypted with $K_{AB}$ . Alice then decrypts ${N_B}$ and decrements its value by 1, thus proving to Bob that the counterpart Alice knows the secret. The value $N_B-1$ is finally transmitted again to Bob, where he would do finish the handshake and start transmitting data securely on the channel with the session key.
+
+### Asymmetric Needham-Schroeder
+
+
