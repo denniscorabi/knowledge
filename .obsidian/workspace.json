@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "246b86052ed33dd4",
+        "id": "2385aa20e956b966",
         "type": "tabs",
         "children": [
           {
-            "id": "3a13b247c6698c1c",
+            "id": "f1d7976a92bfb239",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Permanent/Testing/Functional testing.md",
+                "file": "Permanent/Security/Access Control.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Functional testing"
+              "title": "Access Control"
             }
           }
         ]
@@ -193,14 +193,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a13b247c6698c1c",
+  "active": "f1d7976a92bfb239",
   "lastOpenFiles": [
+    "Permanent/Security/Cryptography.md",
+    "Permanent/Security/Access Control.md",
+    "Permanent/Security/Authentication schemes.md",
     "Permanent/Testing/Testing.md",
     "Permanent/Testing/Functional testing.md",
+    "Permanent/Testing/Structural testing.md",
     "Untitled.base",
+    "Untitled.canvas",
+    "Untitled 1.base",
+    "Tags/security.md",
+    "Tags/pure math.md",
+    "Permanent/Security/Security Engineering.md",
+    "Permanent/Testing/Assets/mc-dc-testing.png",
+    "Permanent/Zettelkasten.md",
+    "Permanent/Testing/Assets/condition-coverage-naive.png",
+    "Permanent/Testing/Assets",
+    "Permanent/Testing/Combinatorial testing.md",
     "Permanent/Number theory/Cryptography.md",
     "Tags/testing.md",
-    "Permanent/Zettelkasten.md",
     "Permanent/Testing",
     "Literature/operations research 2025-09-24.md",
     "Literature/dynamic programming 2025-10-04.md",
@@ -211,7 +224,6 @@
     "Permanent/Mobile development/Intents.md",
     "Permanent/Mobile development/Architettura di applicazioni.md",
     "Permanent/Mobile development/Activities lifecycle.md",
-    "Tags/pure math.md",
     "Tags/mobile development.md",
     "Permanent/Mobile development/Mobile dev.md",
     "Permanent/Mobile development",
@@ -221,17 +233,8 @@
     "Fleeting",
     "Source/Untitled",
     "Literature/assets/IMG_4293.heic",
-    "Permanent/Operations research/Linear programming.md",
     "4 - Drafts/assets/Pasted image 20250924212410.png",
-    "Untitled 1.base",
     "Literature/assets",
-    "Untitled 4.base",
-    "Untitled 3.base",
-    "3 - Tags/hidden.md",
-    "Templates/Full Note.md",
-    "6 - Atomic Notes/zette.md",
-    "2 - Source Material/Articles/Untitled.md",
-    "202407131723.md",
-    "Welcome.md"
+    "Untitled 4.base"
   ]
 }
